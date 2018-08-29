@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from __init__ import ResourceManager
+from pyramid_res import ResourceManager
 from tests.testing import MyTestCase
 
 
