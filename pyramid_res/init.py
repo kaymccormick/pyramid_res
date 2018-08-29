@@ -8,6 +8,7 @@ from pyramid.request import Request
 
 logger = logging.getLogger(__name__)
 
+
 class HasRequestMixin:
     @property
     def request(self):
@@ -473,6 +474,8 @@ class RootResource(ContainerResource):
         self.__parent__ = None
         super().__init__(dict_init, *args, **kwargs)
 
+
 def includeme(config):
+
     pass
 

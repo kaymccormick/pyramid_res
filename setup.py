@@ -17,7 +17,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 #    CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 
 requires = [
-    'pyramid>=1.9.2', # pyramid.path.DottedNameResolver
+    'pyramid',
 ]
 
 try:
